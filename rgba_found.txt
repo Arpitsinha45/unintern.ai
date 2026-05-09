@@ -1,0 +1,122 @@
+  { id: 'cyan-purple', label: 'Cyan & Purple', from: '#22d3ee', to: '#a855f7', shadow: 'rgba(168,85,247,0.4)' },
+  { id: 'emerald-teal', label: 'Emerald & Teal', from: '#10b981', to: '#14b8a6', shadow: 'rgba(20,184,166,0.4)' },
+  { id: 'rose-pink', label: 'Rose & Pink', from: '#f43f5e', to: '#ec4899', shadow: 'rgba(236,72,153,0.4)' },
+  { id: 'amber-orange', label: 'Amber & Orange', from: '#f59e0b', to: '#f97316', shadow: 'rgba(249,115,22,0.4)' },
+  { id: 'indigo-violet', label: 'Indigo & Violet', from: '#6366f1', to: '#8b5cf6', shadow: 'rgba(139,92,246,0.4)' },
+      <div className="mb-3 leading-none filter drop-shadow-[0_5px_10px_rgba(0,0,0,0.15)] group-hover:scale-110 transition-transform relative z-10">
+          <h4 className="text-[22px] font-black text-[#111827] mb-2 leading-tight" style={{ textShadow: '0 1px 2px rgba(0,0,0,0.1)' }}>
+          <p className="text-[10px] md:text-[11px] text-[#4B5563] font-medium italic leading-snug px-1 line-clamp-2" style={{ textShadow: '0 1px 1px rgba(0,0,0,0.05)' }}>
+    ? `linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px)`
+    ? `radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px)`
+      <div className={`glass-card bg-[#0f0f14]/90 border ${isError ? 'border-red-500/30 shadow-[0_0_40px_rgba(239,68,68,0.25)]' : 'border-emerald-500/30 shadow-[0_0_40px_rgba(16,185,129,0.25)]'} rounded-2xl p-4 flex items-start gap-4 backdrop-blur-xl`}>
+       <div className="relative w-full max-w-md bg-[#0f0f14] border border-white/10 rounded-[32px] overflow-hidden shadow-[0_0_50px_rgba(168,85,247,0.15)] animate-in zoom-in-95 duration-500">
+             <div className="w-20 h-20 rounded-full bg-white/5 border border-white/10 flex items-center justify-center mb-8 shadow-[0_0_30px_rgba(168,85,247,0.2)] animate-float">
+                 <div key={i} className={`h-1.5 rounded-full transition-all duration-300 ${i === step ? 'w-6 bg-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.5)]' : 'w-1.5 bg-gray-700'}`}></div>
+             <button onClick={handleNext} className="w-full py-4 rounded-xl bg-white text-black font-black uppercase tracking-widest hover:bg-gray-200 transition-all active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+      <nav className={`hidden md:flex items-center absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 h-[56px] bg-black/40 backdrop-blur-2xl border border-white/10 rounded-[24px] px-2 shadow-[0_10px_30px_rgba(0,0,0,0.5)] w-[500px]`}>
+                <div className={`transition-all duration-300 ${isActive ? 'text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]' : 'text-gray-400'}`}>
+          <span className="absolute top-1 right-1.5 w-2 h-2 bg-red-500 rounded-full shadow-[0_0_8px_rgba(239,68,68,0.8)] border border-black text-[8px] flex items-center justify-center text-white font-bold"></span>
+        <div className="w-9 h-9 rounded-full border border-cyan-400/50 p-[2px] cursor-pointer hover:border-cyan-400/80 transition-colors shadow-[0_0_10px_rgba(34,211,238,0.2)]">
+      className="fixed bottom-6 left-1/2 -translate-x-1/2 h-[72px] bg-black/40 backdrop-blur-2xl border border-white/10 rounded-[32px] z-50 flex items-center px-2 no-print shadow-[0_20px_50px_rgba(0,0,0,0.5)] hover:border-white/20 w-[90%] max-w-[500px] md:hidden"
+              <div className={`transition-all duration-300 ${isActive ? 'text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.5)]' : 'text-gray-400'}`}>
+                                                        <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.5)]"></div>
+                                                            className={`flex-1 py-2 rounded-xl text-[10px] font-bold uppercase tracking-widest transition-all ${newChannelType === 'text' ? 'bg-cyan-500 text-black shadow-[0_0_20px_rgba(6,182,212,0.3)]' : 'bg-white/5 text-gray-500 border border-white/5'}`}
+                                                            className={`flex-1 py-2 rounded-xl text-[10px] font-bold uppercase tracking-widest transition-all ${newChannelType === 'voice' ? 'bg-cyan-500 text-black shadow-[0_0_20px_rgba(6,182,212,0.3)]' : 'bg-white/5 text-gray-500 border border-white/5'}`}
+                                        ? 'bg-emerald-500 text-black shadow-[0_0_30px_rgba(16,185,129,0.3)]'
+                                        : 'bg-white text-black hover:bg-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.4)]'
+                        className="w-full max-w-3xl bg-[#0a0a0c] border border-white/10 rounded-[40px] overflow-hidden shadow-[0_0_100px_rgba(16,185,129,0.1)] flex flex-col max-h-[90vh]"
+                                            <div className={`w-3 h-3 rounded-full ${selectedInvestor.vetted ? 'bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]' : 'bg-gray-700'}`}></div>
+                        <button onClick={() => handleSubTabChange('co-founder')} className={`pb-3 text-xs font-bold uppercase tracking-widest transition-all relative ${subTab === 'co-founder' ? 'text-white' : 'text-gray-500 hover:text-gray-300'}`}>Co-Founders {subTab === 'co-founder' && <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-cyan-400 to-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.6)] rounded-full"></span>}</button>
+                        <button onClick={() => handleSubTabChange('my-team')} className={`pb-3 text-xs font-bold uppercase tracking-widest transition-all relative ${subTab === 'my-team' ? 'text-white' : 'text-gray-500 hover:text-gray-300'}`}>My Team {subTab === 'my-team' && <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-cyan-400 to-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.6)] rounded-full"></span>}</button>
+                        <button onClick={() => handleSubTabChange('tribes')} className={`pb-3 text-xs font-bold uppercase tracking-widest transition-all relative ${subTab === 'tribes' ? 'text-white' : 'text-gray-500 hover:text-gray-300'}`}>Tribes {subTab === 'tribes' && <span className="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-cyan-400 to-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.6)] rounded-full"></span>}</button>
+                        <button onClick={() => handleSubTabChange('venture-bridge')} className={`pb-3 text-xs font-bold uppercase tracking-widest transition-all relative ${subTab === 'venture-bridge' ? 'text-emerald-400' : 'text-gray-500 hover:text-gray-300'}`}>Venture Bridge {subTab === 'venture-bridge' && <span className="absolute bottom-0 left-0 w-full h-[2px] bg-emerald-500 shadow-[0_0_15px_rgba(16,185,129,0.8)] rounded-full"></span>}</button>
+                            <div key={f.id} className="group relative rounded-[24px] p-[1px] transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_0_40px_rgba(168,85,247,0.15)]">
+                                    className="cursor-pointer group glass-card rounded-[24px] overflow-hidden hover:shadow-[0_0_40px_rgba(168,85,247,0.15)] transition-all duration-500 hover:-translate-y-1"
+                                    backgroundColor: 'rgba(255, 255, 255, 0.02)', 
+                                    border: '0.5px solid rgba(255, 255, 255, 0.1)' 
+                                            className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 shrink-0 ${workspaceInput.trim() ? 'bg-cyan-500/20 text-cyan-400 shadow-[0_0_10px_rgba(34,211,238,0.4)]' : 'bg-white/10 text-white/50'}`}
+                                                            backgroundColor: 'rgba(255, 255, 255, 0.02)', 
+                                                            border: '0.5px solid rgba(255, 255, 255, 0.1)' 
+                                                    backgroundColor: 'rgba(255, 255, 255, 0.02)', 
+                                                    border: '0.5px solid rgba(255, 255, 255, 0.1)' 
+                                className="group relative rounded-[32px] overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_50px_rgba(16,185,129,0.2)] hover:border-emerald-500/30 bg-[#050505]/90 border border-white/5 backdrop-blur-3xl p-1 cursor-pointer"
+                                            <span className="bg-[#10b981]/10 text-[#10b981] border border-[#10b981]/30 px-2.5 py-1 rounded-full text-[9px] font-black uppercase tracking-wider animate-pulse shadow-[0_0_15px_rgba(16,185,129,0.3)]">
+                                            className={`w-full py-4 rounded-xl font-black uppercase tracking-widest text-[9px] transition-all duration-300 active:scale-95 group-hover:scale-[1.05] group-hover:shadow-[0_0_25px_rgba(255,255,255,0.2)] ${
+                    className="absolute w-1.5 h-1.5 rounded-sm bg-emerald-400 shadow-[0_0_12px_rgba(52,211,153,0.9)]"
+                        <div className="flex flex-col items-center"><span className="text-[10px] text-gray-500 font-bold uppercase tracking-widest mb-1">Total XP</span><span className="text-2xl font-black text-cyan-400 font-mono drop-shadow-[0_0_10px_rgba(34,211,238,0.4)]">2,450</span></div>
+                            <button key={tab.id} onClick={() => setChallengeTab(tab.id as any)} className={`px-6 py-3 rounded-xl border font-black text-xs uppercase tracking-widest transition-all whitespace-nowrap ${challengeTab === tab.id ? `bg-${tab.color}-500/10 border-${tab.color}-500 text-${tab.color}-400 shadow-[0_0_20px_rgba(0,0,0,0.4)]` : 'bg-white/5 border-white/10 text-gray-400 hover:text-white hover:bg-white/10'}`}>{tab.label}</button>
+                            <div key={mission.id} className={`group relative glass-card rounded-[24px] overflow-hidden transition-all duration-300 hover:-translate-y-1 ${mission.isUrgent ? 'border-orange-500/50 shadow-[0_0_20px_rgba(249,115,22,0.15)]' : 'hover:shadow-[0_0_30px_rgba(168,85,247,0.15)]'}`}>
+                                        className={`w-full mt-6 py-3 rounded-xl font-black text-xs uppercase tracking-widest transition-all shadow-[0_0_20px_rgba(255,255,255,0.2)] active:scale-95 flex items-center justify-center gap-2 overflow-hidden relative group ${acceptedMissions.includes(mission.id) ? 'bg-emerald-500 text-white cursor-default border border-emerald-400 shadow-[0_0_30px_rgba(16,185,129,0.4)]' : 'bg-white text-black hover:bg-gray-200'}`}
+                    <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-[6rem] xl:text-[8rem] font-black tracking-tighter leading-none text-transparent [-webkit-text-stroke:1px_rgba(255,255,255,0.3)] group-hover:[-webkit-text-stroke:1px_rgba(255,255,255,0.8)] transition-all duration-700 whitespace-nowrap uppercase">
+                            <div className="w-2 h-2 lg:w-3 lg:h-3 bg-emerald-500 rounded-full animate-pulse shadow-[0_0_10px_rgba(16,185,129,0.5)]"></div>
+                                        className="absolute right-0 top-full mt-3 w-56 rounded-2xl bg-[#0a0a0f]/95 backdrop-blur-2xl border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)] overflow-hidden z-50"
+                                                className={`w-full text-left px-4 py-3 rounded-xl text-[10px] font-black uppercase tracking-wider transition-all ${!filterSkill ? 'bg-emerald-500 text-black shadow-[0_0_20px_rgba(16,185,129,0.3)]' : 'text-gray-400 hover:bg-white/5 hover:text-white'}`}
+                                                    className={`w-full text-left px-4 py-3 rounded-xl text-[10px] font-black uppercase tracking-wider transition-all ${filterSkill === skill ? 'bg-emerald-500 text-black shadow-[0_0_20px_rgba(16,185,129,0.3)]' : 'text-gray-400 hover:bg-white/5 hover:text-white'}`}
+                            className="w-full max-w-5xl max-h-[90vh] bg-[#05050a] border border-white/10 rounded-[40px] overflow-hidden shadow-[0_0_100px_rgba(16,185,129,0.15)] flex flex-col md:flex-row cursor-default relative"
+                                                    className={`py-4 rounded-2xl border text-[10px] font-black uppercase tracking-widest transition-all ${selectedDate === date ? 'bg-emerald-500 border-emerald-500 text-black shadow-[0_0_20px_rgba(16,185,129,0.3)]' : 'bg-white/5 border-white/10 text-gray-400 hover:border-white/30 hover:text-white'}`}
+                                                    className={`py-4 rounded-2xl border text-[10px] font-black uppercase tracking-widest transition-all ${selectedTime === time ? 'bg-emerald-500 border-emerald-500 text-black shadow-[0_0_20px_rgba(16,185,129,0.3)]' : 'bg-white/5 border-white/10 text-gray-400 hover:border-white/30 hover:text-white'}`}
+                                                className={`w-full sm:w-auto px-12 py-5 rounded-2xl font-black uppercase tracking-[0.2em] text-xs transition-all flex items-center justify-center gap-3 ${(!selectedDate || !selectedTime || isBooking) ? 'bg-white/5 text-gray-600 border border-white/5 cursor-not-allowed' : 'bg-white text-black hover:bg-emerald-400 shadow-[0_0_30px_rgba(255,255,255,0.2)] active:scale-95'}`}
+                            className="w-full max-w-lg bg-[#0a0a0f] border border-white/10 rounded-[32px] sm:rounded-[48px] overflow-hidden shadow-[0_0_100px_rgba(0,0,0,0.8)] flex flex-col cursor-default"
+                                <div className="w-24 h-24 rounded-[32px] overflow-hidden border-4 border-emerald-500/20 mb-6 shadow-[0_0_30px_rgba(16,185,129,0.1)]">
+    <div className={`glass-card rounded-[24px] border border-white/10 transition-all duration-500 group will-change-transform ${isExpanded ? 'bg-white/5 ring-1 ring-purple-500/30 shadow-[0_0_30px_rgba(168,85,247,0.1)]' : 'hover:border-purple-500/30 hover:-translate-y-1'}`}>
+             <div className="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center border border-purple-500/40 shadow-[0_0_15px_rgba(168,85,247,0.3)]"><span className="text-xs font-black text-purple-300">SM</span></div>
+            .premium-scrollbar::-webkit-scrollbar { height: 4px; } .premium-scrollbar::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.02); border-radius: 4px; } .premium-scrollbar::-webkit-scrollbar-thumb { background: rgba(168, 85, 247, 0.3); border-radius: 4px; } .premium-scrollbar::-webkit-scrollbar-thumb:hover { background: rgba(168, 85, 247, 0.6); } 
+                background: rgba(10, 10, 15, 0.95) !important;
+                border: 1px solid rgba(253, 185, 49, 0.3) !important;
+                box-shadow: 0 0 20px rgba(253, 185, 49, 0.15);
+                box-shadow: 0 0 35px rgba(253, 185, 49, 0.3);
+              background: linear-gradient(to bottom, transparent, rgba(253, 185, 49, 0.25), transparent);
+              background: linear-gradient(to right, transparent, rgba(255,255,255,0.2), transparent);
+              0%, 100% { box-shadow: 0 0 15px rgba(168, 85, 247, 0.2); }
+              50% { box-shadow: 0 0 25px rgba(168, 85, 247, 0.4); }
+                background: rgba(255, 255, 255, 0.01) !important;
+                border: 0.5px solid rgba(255, 255, 255, 0.15) !important;
+                box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.03) !important;
+                color: rgba(230, 230, 255, 0.7) !important; 
+                text-shadow: 0 0 10px rgba(168, 85, 247, 0.4); 
+                box-shadow: 0 0 30px rgba(168, 85, 247, 0.5);
+              background: radial-gradient(circle at center, rgba(253, 185, 49, 0.08) 0%, transparent 70%);
+              box-shadow: 0 0 25px rgba(253, 185, 49, 1);
+              text-shadow: 0 0 15px rgba(253, 185, 49, 0.8);
+              box-shadow: 0 0 15px rgba(253, 185, 49, 0.8);
+              filter: drop-shadow(0 0 8px rgba(253, 185, 49, 0.8));
+                box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+                box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+                filter: drop-shadow(0 8px 10px rgba(0,0,0,0.15));
+              backgroundImage: `linear-gradient(to right, rgba(255,255,255,0.04) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.04) 1px, transparent 1px)`,
+          <div className="w-full max-w-4xl mx-auto h-[1px] bg-gradient-to-r from-transparent via-amber-400/40 to-transparent my-20 shadow-[0_0_20px_rgba(251,191,36,0.25)]" />
+                 className="absolute top-0 left-0 h-full bg-[#FDB931]/50 transition-all duration-300 shadow-[0_0_10px_rgba(253,185,49,0.5)]"
+          <div className="w-full max-w-4xl mx-auto h-[1px] bg-gradient-to-r from-transparent via-amber-400/40 to-transparent mt-20 mb-24 shadow-[0_0_20px_rgba(251,191,36,0.25)]" />
+            <div className="relative aspect-video rounded-[32px] overflow-hidden border border-white/10 shadow-[0_0_50px_rgba(168,85,247,0.15)] group">
+          <div className="w-full max-w-4xl mx-auto h-[1px] bg-gradient-to-r from-transparent via-amber-400/40 to-transparent my-12 shadow-[0_0_20px_rgba(251,191,36,0.25)]" />
+                        <Medal className="w-10 h-10 text-[#D97706] drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)]" />
+                        <Medal className="w-10 h-10 text-[#94A3B8] drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)]" />
+                        <Medal className="w-10 h-10 text-amber-700 drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)]" />
+                        <Award className="w-10 h-10 text-cyan-600 drop-shadow-[0_8px_10px_rgba(0,0,0,0.15)]" />
+          <div className="w-full max-w-4xl mx-auto h-[1px] bg-gradient-to-r from-transparent via-amber-400/40 to-transparent my-12 shadow-[0_0_20px_rgba(251,191,36,0.25)]" />
+              <div className="absolute inset-0 pointer-events-none z-0" style={{ background: 'radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.02) 0%, transparent 80%)' }}></div>
+                      <p className="text-[11px] font-extrabold uppercase tracking-[5px] font-['Plus_Jakarta_Sans']" style={{ color: 'rgba(255, 255, 255, 0.7)', textShadow: '0 0 10px rgba(255, 255, 255, 0.1)' }}>
+                                      <span className="text-[50px] filter drop-shadow-[0_0_15px_rgba(253,185,49,0.8)]">
+                                          textShadow: '0 0 10px rgba(253, 185, 49, 0.4)'
+                                  <div className="absolute bottom-[-20px] left-1/2 -translate-x-1/2 w-[140%] h-[60px] bg-[radial-gradient(ellipse_at_center,rgba(34,211,238,0.15)_0%,transparent_70%)] blur-xl pointer-events-none z-[-1]"></div>
+                      <div key={`card-${fameIndex}`} className="w-full max-w-[260px] h-[380px] rounded-[24px] p-6 flex flex-col shadow-[0_30px_60px_rgba(0,0,0,0.8)] animate-cross-fade relative overflow-hidden group"
+                                background: 'rgba(10, 10, 15, 0.95)', 
+                                border: '1px solid rgba(253, 185, 49, 0.2)',
+                                borderImage: 'linear-gradient(to bottom right, rgba(253, 185, 49, 0.3), rgba(255, 255, 255, 0.1)) 1'
+                                          <span className="text-sm text-[#00E5FF] filter drop-shadow(0 0 8px rgba(0,229,255,0.4))">{stat.icon}</span>
+          <div className="w-full max-w-4xl mx-auto h-[1px] bg-gradient-to-r from-transparent via-amber-400/40 to-transparent my-12 shadow-[0_0_20px_rgba(251,191,36,0.25)]" />
+              <div className="absolute inset-0 pointer-events-none z-0" style={{ background: 'radial-gradient(circle at 50% 50%, rgba(251, 191, 36, 0.06) 0%, transparent 80%)' }}></div>
+                      <Trophy className="w-6 h-6 md:w-8 md:h-8 text-amber-400 filter drop-shadow-[0_0_10px_rgba(251,191,36,0.5)]" />
+                                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-full p-[1px] bg-white/20 shadow-[0_0_20px_rgba(255,255,255,0.1)] relative">
+                              <div className="w-full h-20 md:h-24 bg-[rgba(0,0,0,0.4)] rounded-t-2xl border-x border-t border-white/10 backdrop-blur-sm"></div>
+                                  <div className="w-20 h-20 md:w-28 md:h-28 rounded-full p-[2px] bg-[#f59e0b]/40 shadow-[0_0_40px_rgba(245,158,11,0.3)] relative z-10">
+                                  <div className="absolute -top-2 -right-2 w-8 h-8 md:w-9 md:h-9 rounded-full bg-[#f59e0b] flex items-center justify-center text-black font-black text-xs shadow-[0_0_20px_rgba(245,158,11,0.5)] border-2 border-black z-20">1</div>
+                                  <div className="px-3 py-1 rounded-full bg-[#f59e0b]/10 border border-[#f59e0b]/30 text-[#f59e0b] text-[10px] md:text-xs font-black font-['Plus_Jakarta_Sans'] shadow-[0_0_15px_rgba(245,158,11,0.1)]">
+                              <div className="w-full h-32 md:h-40 bg-[rgba(0,0,0,0.4)] rounded-t-3xl border-x border-t border-[#f59e0b]/20 backdrop-blur-md relative overflow-hidden">
+                                  <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(245,158,11,0.05)_50%,transparent_75%)] bg-[length:200%_200%] animate-[text-shimmer_4s_infinite]"></div>
+                                  <div className="w-16 h-16 md:w-20 md:h-20 rounded-full p-[1px] bg-amber-900/40 shadow-[0_0_20px_rgba(180,83,9,0.1)] relative">
+                              <div className="w-full h-16 md:h-20 bg-[rgba(0,0,0,0.4)] rounded-t-2xl border-x border-t border-white/10 backdrop-blur-sm"></div>
+          <div className="w-full max-w-4xl mx-auto h-[1px] bg-gradient-to-r from-transparent via-amber-400/40 to-transparent my-12 shadow-[0_0_20px_rgba(251,191,36,0.25)]" />
+        .markdown-body code { background: rgba(255,255,255,0.1); padding: 0.2em 0.4em; border-radius: 0.25em; font-size: 0.9em; }
+        .markdown-body pre { background: rgba(0,0,0,0.5); padding: 1em; border-radius: 0.5em; overflow-x: auto; margin-bottom: 1em; border: 1px solid rgba(255,255,255,0.1); }
+        .markdown-body blockquote { border-left: 4px solid rgba(255,255,255,0.2); padding-left: 1em; color: rgba(255,255,255,0.7); font-style: italic; margin-bottom: 1em; }

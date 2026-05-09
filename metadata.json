@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Remix: Remix: Copy of Copy of 9",
+  "description": "A minimal, execution-focused tool for first-time builders to get moving on their ideas immediately.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
