@@ -32,6 +32,12 @@
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.2.2"
   },
+  "overrides": {
+    "react-day-picker": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
